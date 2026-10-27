@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="690" viewBox="0 0 1060 690" role="img" aria-labelledby="title desc">
+<title id="title">Equilibrio estático del antebrazo</title><desc id="desc">Barra horizontal articulada en O. Fuerza muscular vertical ascendente a 0.030 metros del apoyo; peso descendente a 0.300 metros. Reacción articular descendente. Fuerzas verticales; no hay reacción horizontal.</desc>
+<defs><marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#115e59"/></marker><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#1e40af"/></marker><marker id="navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#0f172a"/></marker></defs>
+<rect width="1060" height="690" fill="#f8fafc"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="40" y="48" font-size="15" font-weight="600" fill="#115e59">BIOMECATRÓNICA / CLASE 01</text>
+<text x="40" y="94" font-size="30" font-weight="600" fill="#0f172a">Equilibrio estático del antebrazo</text>
+<text x="40" y="132" font-size="18" fill="#334155">Modelo plano: fuerza muscular, carga externa y reacción articular.</text>
+<path d="M180 350 H880" stroke="#64748b" stroke-width="16" stroke-linecap="round"/>
+<circle cx="180" cy="350" r="12" fill="white" stroke="#0f172a" stroke-width="3"/>
+<text x="70" y="320" font-size="21" fill="#0f172a">Codo · O</text>
+<path d="M250 350 V205" stroke="#115e59" stroke-width="4" marker-end="url(#teal)"/>
+<text x="275" y="221" font-size="22" font-weight="600" fill="#115e59">Fuerza muscular F_m</text>
+<path d="M880 350 V475" stroke="#1e40af" stroke-width="4" marker-end="url(#blue)"/>
+<text x="720" y="510" font-size="22" font-weight="600" fill="#1e40af">Peso W = mg</text>
+<path d="M180 350 V475" stroke="#0f172a" stroke-width="4" marker-end="url(#navy)"/>
+<text x="55" y="510" font-size="21" fill="#0f172a">Reacción R_y</text>
+<path d="M180 545 H880 M180 535 V555 M880 535 V555" stroke="#64748b" stroke-width="2.5" fill="none"/>
+<text x="390" y="580" font-size="21" fill="#334155">b_L = 0.300 m</text>
+<path d="M180 605 H250 M180 595 V615 M250 595 V615" stroke="#64748b" stroke-width="2.5" fill="none"/>
+<text x="130" y="650" font-size="21" fill="#334155">b_m = 0.030 m</text>
+<path d="M960 330 V265 M960 330 H1015" stroke="#0f172a" stroke-width="2.5" fill="none" marker-end="url(#navy)"/>
+<text x="947" y="250" font-size="19" fill="#0f172a">+y</text><text x="995" y="360" font-size="19" fill="#0f172a">+x</text>
+</g></svg>

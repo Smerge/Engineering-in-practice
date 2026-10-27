@@ -48,3 +48,7 @@ La redacción es directa, natural y cercana. Se prefiere “El resumen presentad
 - [W3C: contraste mejorado, criterio 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html).
 - [W3C: contraste no textual, criterio 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html).
 - [W3C: alternativas para imágenes complejas](https://www.w3.org/WAI/tutorials/images/complex/).
+
+## Desarrollo científico
+
+Para incorporar ecuaciones, modelos, ejercicios y atlas, aplicar el [criterio de profundidad científica](profundidad-cientifica.md).
