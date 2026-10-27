@@ -15,7 +15,7 @@ La organización permite recorrer el contenido por materia y consultar cada proy
 
 ## Primera entrada
 
-[**Biomecatrónica · Introducción a la biomecatrónica y al movimiento humano**](asignaturas/biomecatronica/clases/2026-10-26-introduccion/README.md)
+[**Biomecatrónica · Introducción a la biomecatrónica y al movimiento humano**](asignaturas/biomecatronica/clases/clase-01-introduccion/README.md)
 
 Una introducción a huesos, articulaciones y funciones musculares, conectada con ejemplos de robótica blanda y con preguntas para el diseño de dispositivos de asistencia.
 
