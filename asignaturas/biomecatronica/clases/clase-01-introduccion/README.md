@@ -13,17 +13,17 @@ La sesión presentó el enfoque del curso e introdujo huesos, articulaciones y f
 
 ![Diagrama que conecta huesos, articulaciones y músculos con el análisis del movimiento y tres preguntas de diseño.](figuras/anatomia-diseno.svg)
 
-*Figura 1. Ruta de análisis desde la anatomía hacia el diseño de asistencia. Elaboración original para el portafolio; síntesis didáctica. [Créditos y alcance](figuras/CREDITOS.md).*
+*Figura 1. De la anatomía al diseño de asistencia. [Créditos](figuras/CREDITOS.md) · [Descripción en texto](figuras/DESCRIPCIONES.md#figura-1).*
 
 ## Propósito de la sesión
 
-Introducir las bases anatómicas necesarias para comenzar a analizar el movimiento desde la ingeniería. El propósito fue reconocer estructuras y funciones antes de plantear mecanismos que interactúen con ellas. Este objetivo describe la intención de la clase; no constituye una medición del aprendizaje alcanzado.
+Introducir las bases anatómicas necesarias para comenzar a analizar el movimiento desde la ingeniería. El propósito fue reconocer estructuras y funciones antes de plantear mecanismos que interactúen con ellas.
 
 ## Contenidos trabajados
 
 ### Robótica blanda como contexto de aplicación
 
-Según el resumen de la sesión, se presentaron ejemplos audiovisuales de robots con movimiento por expansión y contracción, estructuras con tentáculos y actuadores neumáticos. Estos ejemplos permitieron introducir la relación entre deformación y movimiento.
+Durante la clase se presentaron ejemplos audiovisuales de robots con movimiento por expansión y contracción, estructuras con tentáculos y actuadores neumáticos. Estos ejemplos permitieron introducir la relación entre deformación y movimiento.
 
 La robótica blanda utiliza componentes deformables y no se limita a la neumática: también existen soluciones hidráulicas, eléctricas y basadas en materiales activos. En esta clase, la atención se concentró en ejemplos neumáticos. Su costo, consumo y masa deben evaluarse considerando el sistema completo, incluida la alimentación y el control; no son ventajas garantizadas por utilizar aire comprimido. [1]
 
@@ -39,7 +39,7 @@ La clasificación por forma ayuda a organizar el estudio del esqueleto. Un hueso
 | Irregular | Vértebras |
 | Sesamoideo | Rótula |
 
-La rótula se incorpora aquí para completar la clasificación anatómica de referencia. La tabla es una síntesis editorial verificada, no una transcripción literal de la exposición.
+La rótula permite reconocer otra categoría importante: los huesos sesamoideos.
 
 ### Articulaciones: distinguir estructura y movilidad
 
@@ -58,7 +58,7 @@ La sindesmosis tibioperonea distal es un ejemplo útil: estructuralmente es fibr
 
 ![Clasificación estructural y funcional de las articulaciones, con la sindesmosis tibioperonea distal como ejemplo de unión fibrosa y anfiartrosis.](figuras/clasificacion-articulaciones.svg)
 
-*Figura 2. Dos criterios de clasificación articular. El ejemplo muestra por qué una articulación fibrosa no es necesariamente inmóvil. Fundamento: referencias 3 y 4. [Créditos](figuras/CREDITOS.md).*
+*Figura 2. Clasificación estructural y funcional de las articulaciones. [Créditos y fuentes](figuras/CREDITOS.md) · [Descripción en texto](figuras/DESCRIPCIONES.md#figura-2).*
 
 ### Músculos: funciones que dependen del movimiento
 
@@ -76,7 +76,7 @@ La analogía ayuda a discutir la importancia de la retroalimentación. Su alcanc
 
 Al introducir los dispositivos de rehabilitación conviene distinguir el movimiento pasivo, producido externamente sin participación activa de la persona, del activo, generado por ella. En el movimiento activo asistido, la persona participa y recibe ayuda para completar la acción. [7]
 
-Esta distinción orienta la discusión sobre qué función cumpliría un dispositivo. No constituye una prescripción terapéutica ni demuestra la eficacia de los ejemplos presentados.
+Esta distinción nos ayuda a definir qué participación tendría la persona y qué asistencia aportaría el dispositivo.
 
 ## Relación con el diseño de dispositivos
 
@@ -86,16 +86,16 @@ Como síntesis de ingeniería de los temas anteriores, el análisis de un dispos
 2. ¿Qué elementos generan fuerza y cuáles aportan soporte o restricciones?
 3. ¿Qué información necesitaría el sistema para ajustar su respuesta?
 
-Los ligamentos pueden servir de referencia para discutir estabilidad y restricciones mecánicas; no deben equipararse directamente con actuadores. Del mismo modo, clasificar una articulación no determina por sí solo qué actuador debe utilizarse. Estas preguntas son una organización editorial del contenido, no una actividad evaluada que se atribuya a la sesión.
+Los ligamentos pueden servir de referencia para discutir estabilidad y restricciones mecánicas; no deben equipararse directamente con actuadores. Del mismo modo, clasificar una articulación no determina por sí solo qué actuador debe utilizarse.
 
 ## Continuidad del trabajo
 
-El resumen recibido registra el estudio de huesos principales, la revisión de terminología anatómica y la lectura de un proyecto o publicación para participar en un foro. Los enlaces, las instrucciones exactas y los plazos deben consultarse en el aula virtual; no se reproducen aquí porque requieren confirmación.
+El resumen presentado aquí reúne las bases para continuar con el estudio de los huesos principales y la terminología anatómica. Como siguiente paso, queda la lectura de un proyecto o publicación para participar en el foro. Las instrucciones, los enlaces y las fechas de entrega se encuentran en el aula virtual.
 
 
-## Referencias de verificación
+## Referencias de apoyo
 
-Consultadas el 27 de octubre de 2026. Las fuentes anatómicas se utilizan para conceptos de base; su antigüedad no implica que describan avances tecnológicos recientes.
+Fuentes consultadas para complementar y revisar los conceptos de este resumen. Consulta: 27 de octubre de 2026.
 
 1. Pan et al. (2022). *Soft Actuators and Robotic Devices for Rehabilitation and Assistance*. Advanced Intelligent Systems. [Artículo y DOI](https://doi.org/10.1002/aisy.202100140).
 2. OpenStax. *Anatomy and Physiology 2e*, sección 6.2: [Bone Classification](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-2-bone-classification).

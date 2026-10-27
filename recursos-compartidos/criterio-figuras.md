@@ -6,7 +6,7 @@ Las figuras acompañan la explicación de cada clase y deben aportar informació
 
 1. Elegir el recurso según su función: relaciones y procesos mediante diagramas; resultados mediante gráficas basadas en datos; montajes mediante fotografías reales.
 2. Revisar etiquetas, unidades, relaciones, legibilidad y correspondencia con el texto.
-3. Identificar ejemplos ilustrativos, dibujos sin escala e imágenes generadas con IA. No presentarlos como resultados, prototipos o fotografías reales.
+3. Distinguir los ejemplos y las ilustraciones de los resultados, prototipos y fotografías reales.
 4. Para imágenes externas, revisar la página original y los términos aplicables a ese archivo. Una referencia bibliográfica no sustituye la autorización para reproducirlo.
 5. Registrar autor, título si está disponible, URL original, licencia y versión, cambios y fecha de consulta en CREDITOS.md dentro de la carpeta figuras de cada clase. Conservar el respaldo del permiso cuando corresponda.
 6. Si el permiso no está claro, enlazar la página original y elegir otro recurso.
@@ -23,3 +23,7 @@ Se priorizan CC0 y CC BY cuando sus términos y la procedencia sean verificables
 - [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.es).
 
 Criterio documentado el 27 de octubre de 2026. Cada incorporación exige revisar el permiso específico; esta guía no concede derechos sobre imágenes ajenas.
+
+## Identidad visual
+
+Aplicar la [guía de estilo visual y accesibilidad](estilo-visual-accesibilidad.md) a todas las asignaturas. Las notas de revisión se mantienen fuera de las figuras y de los resúmenes públicos.
