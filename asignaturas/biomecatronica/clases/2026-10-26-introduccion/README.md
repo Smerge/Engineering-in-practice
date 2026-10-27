@@ -84,11 +84,6 @@ Los ligamentos pueden servir de referencia para discutir estabilidad y restricci
 
 El resumen recibido registra el estudio de huesos principales, la revisión de terminología anatómica y la lectura de un proyecto o publicación para participar en un foro. Los enlaces, las instrucciones exactas y los plazos deben consultarse en el aula virtual; no se reproducen aquí porque requieren confirmación.
 
-## Alcance de esta entrada
-
-Esta sesión fue introductoria. El material recibido no aporta ensayos, código, modelos CAD ni mediciones experimentales de esta clase. Los ejemplos audiovisuales se describen como recursos presentados, sin atribuir autoría ni resultados que el documento no permita comprobar.
-
-La entrada se elaboró a partir del resumen automático de la reunión contenido en el PDF suministrado por el docente. Se corrigieron conceptos mediante las referencias siguientes. Las fuentes de verificación se incorporaron durante la revisión editorial y no se presentan como bibliografía utilizada originalmente en clase. No se revisó la grabación.
 
 ## Referencias de verificación
 
