@@ -13,11 +13,15 @@ La organización permite recorrer el contenido por materia y consultar cada proy
 | [Asignaturas](asignaturas/README.md) | Resúmenes de clases y recursos organizados por materia |
 | [Tutorías de tesis](tutorias/README.md) | Índice de proyectos y seguimiento de avances |
 
-## Primera entrada
+## Clases disponibles
 
 [**Biomecatrónica · Introducción a la biomecatrónica y al movimiento humano**](asignaturas/biomecatronica/clases/clase-01-introduccion/README.md)
 
 Una introducción a huesos, articulaciones y funciones musculares, conectada con ejemplos de robótica blanda y con preguntas para el diseño de dispositivos de asistencia.
+
+[**Integración CAD CAM CIM · Del diseño CAD a la fabricación CNC**](asignaturas/integracion-cad-cam-cim/clases/clase-01-introduccion/README.md)
+
+Herramientas de diseño, certificaciones y conexión CAD/CAM/CIM, con un ejercicio complementario de velocidad de giro y avance en fresado.
 
 ## Asignaturas
 

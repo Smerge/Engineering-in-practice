@@ -6,7 +6,7 @@ Resúmenes y recursos de clase organizados por materia. El estado indica el cont
 
 | Asignatura | Contenido disponible |
 | --- | --- |
-| [Integración CAD CAM CIM](integracion-cad-cam-cim/README.md) | Pendiente de incorporar |
+| [Integración CAD CAM CIM](integracion-cad-cam-cim/README.md) | Primera entrada incorporada |
 | [Integración Curricular (Tesis)](integracion-curricular/README.md) | Pendiente de incorporar |
 | [Robótica Industrial](robotica-industrial/README.md) | Pendiente de incorporar |
 | [Biomecatrónica](biomecatronica/README.md) | Primera entrada incorporada |
