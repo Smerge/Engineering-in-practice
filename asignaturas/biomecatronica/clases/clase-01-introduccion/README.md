@@ -11,6 +11,10 @@ Para diseñar un dispositivo que interactúe con el cuerpo humano, primero neces
 
 La sesión presentó el enfoque del curso e introdujo huesos, articulaciones y funciones musculares. También se discutieron ejemplos de robótica blanda como punto de conexión con los dispositivos de asistencia y rehabilitación.
 
+![Diagrama que conecta huesos, articulaciones y músculos con el análisis del movimiento y tres preguntas de diseño.](figuras/anatomia-diseno.svg)
+
+*Figura 1. Ruta de análisis desde la anatomía hacia el diseño de asistencia. Elaboración original para el portafolio; síntesis didáctica. [Créditos y alcance](figuras/CREDITOS.md).*
+
 ## Propósito de la sesión
 
 Introducir las bases anatómicas necesarias para comenzar a analizar el movimiento desde la ingeniería. El propósito fue reconocer estructuras y funciones antes de plantear mecanismos que interactúen con ellas. Este objetivo describe la intención de la clase; no constituye una medición del aprendizaje alcanzado.
@@ -51,6 +55,10 @@ Se revisaron dos criterios que responden a preguntas diferentes: cómo se unen l
 | Funcional | Diartrosis | Articulación libremente móvil |
 
 La sindesmosis tibioperonea distal es un ejemplo útil: estructuralmente es fibrosa y funcionalmente permite un movimiento limitado. Por ello, no corresponde describirla como una unión completamente inmóvil. [4]
+
+![Clasificación estructural y funcional de las articulaciones, con la sindesmosis tibioperonea distal como ejemplo de unión fibrosa y anfiartrosis.](figuras/clasificacion-articulaciones.svg)
+
+*Figura 2. Dos criterios de clasificación articular. El ejemplo muestra por qué una articulación fibrosa no es necesariamente inmóvil. Fundamento: referencias 3 y 4. [Créditos](figuras/CREDITOS.md).*
 
 ### Músculos: funciones que dependen del movimiento
 

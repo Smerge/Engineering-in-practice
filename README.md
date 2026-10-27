@@ -36,3 +36,7 @@ Los trabajos de estudiantes se identificarán con sus contribuciones y créditos
 ---
 
 **English overview:** Teaching and engineering portfolio by David Cortez, organized around course notes and thesis supervision. Technical entries connect foundational concepts with engineering applications and include supporting references.
+
+## Figuras y procedencia
+
+Los diagramas y las imágenes se revisan junto con el contenido técnico. Consulta el [criterio editorial de figuras](recursos-compartidos/criterio-figuras.md) para conocer cómo se documentan sus fuentes y permisos.
