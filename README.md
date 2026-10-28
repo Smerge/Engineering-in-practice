@@ -23,6 +23,10 @@ Una introducción a huesos, articulaciones y funciones musculares, conectada con
 
 Herramientas de diseño, certificaciones y conexión CAD/CAM/CIM, con un ejercicio complementario de velocidad de giro y avance en fresado.
 
+[**Biomecánica · Movimiento, medio continuo y dispositivos de rehabilitación**](asignaturas/biomecanica/clases/clase-01-introduccion/README.md)
+
+Modelos de trayectoria, transformaciones rígidas y deformación, con un ejercicio resuelto y recursos para el análisis del movimiento.
+
 ## Asignaturas
 
 - [Integración CAD CAM CIM](asignaturas/integracion-cad-cam-cim/README.md)
