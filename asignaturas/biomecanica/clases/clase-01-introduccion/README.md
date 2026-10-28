@@ -58,16 +58,18 @@ Esta aproximación debe ser adecuada para la escala y el fenómeno estudiados. E
 
 Si conocemos la posición de un punto en función del tiempo, su velocidad y aceleración se obtienen mediante derivadas temporales:
 
-$$
+```math
 \mathbf{r}(t)=
 \begin{bmatrix}
-x(t)\\y(t)\\z(t)
+x(t)\\
+y(t)\\
+z(t)
 \end{bmatrix},
 \qquad
 \mathbf{v}(t)=\frac{d\mathbf{r}}{dt},
 \qquad
 \mathbf{a}(t)=\frac{d^2\mathbf{r}}{dt^2}
-$$
+```
 
 Con posición en metros y tiempo en segundos, la velocidad se expresa en m/s y la aceleración en m/s². Conocer tres funciones de posición permite derivarlas; no produce por sí solo una matriz espacial de deformación. [2]
 
@@ -75,14 +77,16 @@ Con posición en metros y tiempo en segundos, la velocidad se expresa en m/s y l
 
 Con vectores columna, la posición de un punto puede cambiarse entre dos sistemas de referencia mediante: [3]
 
-$$
+```math
 \begin{bmatrix}
-\mathbf{p}_a\\1
+\mathbf{p}_a\\
+1
 \end{bmatrix}
 =
 \mathbf{T}_{ab}
 \begin{bmatrix}
-\mathbf{p}_b\\1
+\mathbf{p}_b\\
+1
 \end{bmatrix},
 \qquad
 \mathbf{T}_{ab}=
@@ -90,56 +94,56 @@ $$
 \mathbf{R}_{ab}&\mathbf{d}_{ab}\\
 \mathbf{0}^{T}&1
 \end{bmatrix}
-$$
+```
 
-$\mathbf{p}_b$ y $\mathbf{p}_a$ son las coordenadas del mismo punto en los marcos $b$ y $a$. $\mathbf{R}_{ab}$ es una rotación de 3 × 3 y $\mathbf{d}_{ab}$ expresa, en el marco $a$, la posición del origen de $b$.
+$`\mathbf{p}_b`$ y $`\mathbf{p}_a`$ son las coordenadas del mismo punto en los marcos $`b`$ y $`a`$. $`\mathbf{R}_{ab}`$ es una rotación de 3 × 3 y $`\mathbf{d}_{ab}`$ expresa, en el marco $`a`$, la posición del origen de $`b`$.
 
-Una rotación cumple $\mathbf{R}^{T}\mathbf{R}=\mathbf{I}$ y $\det\mathbf{R}=1$. Una escala que cambia longitudes no pertenece a una transformación rígida. El orden se establece con marcos y convenciones; para esta notación:
+Una rotación cumple $`\mathbf{R}^{T}\mathbf{R}=\mathbf{I}`$ y $`\det\mathbf{R}=1`$. Una escala que cambia longitudes no pertenece a una transformación rígida. El orden se establece con marcos y convenciones; para esta notación:
 
-$$
+```math
 \mathbf{T}_{ac}=\mathbf{T}_{ab}\mathbf{T}_{bc}
-$$
+```
 
 ### Deformación de un material
 
-Para un continuo, el movimiento se escribe $\mathbf{x}=\boldsymbol{\chi}(\mathbf{X},t)$: $\mathbf{X}$ identifica la posición de referencia del punto material y $\mathbf{x}$ su posición actual. El gradiente de deformación es: [4]
+Para un continuo, el movimiento se escribe $`\mathbf{x}=\boldsymbol{\chi}(\mathbf{X},t)`$: $`\mathbf{X}`$ identifica la posición de referencia del punto material y $`\mathbf{x}`$ su posición actual. El gradiente de deformación es: [4]
 
-$$
+```math
 \mathbf{F}=\frac{\partial\boldsymbol{\chi}}{\partial\mathbf{X}},
 \qquad
 F_{ij}=\frac{\partial x_i}{\partial X_j}
-$$
+```
 
 Se consideran las derivadas de cada coordenada actual respecto a todas las coordenadas de referencia. Su determinante es un escalar distinto de la matriz:
 
-$$
+```math
 J_V=\det\mathbf{F},
 \qquad
 dv=J_V\,dV
-$$
+```
 
-$dV$ y $dv$ son volúmenes diferenciales de referencia y actuales. Para una deformación suave físicamente admisible se exige $J_V>0$. Un valor de 1 indica conservación local de volumen; uno mayor que 1, aumento local. Aquí $\mathbf{F}$ y $J_V$ son adimensionales. [4]
+$`dV`$ y $`dv`$ son volúmenes diferenciales de referencia y actuales. Para una deformación suave físicamente admisible se exige $`J_V>0`$. Un valor de 1 indica conservación local de volumen; uno mayor que 1, aumento local. Aquí $`\mathbf{F}`$ y $`J_V`$ son adimensionales. [4]
 
 ## La matriz jacobiana no es su determinante
 
-Para una posición $\mathbf{p}=\mathbf{f}(\mathbf{q})$, la jacobiana de posición contiene derivadas respecto a las variables de configuración $q_j$: [5]
+Para una posición $`\mathbf{p}=\mathbf{f}(\mathbf{q})`$, la jacobiana de posición contiene derivadas respecto a las variables de configuración $`q_j`$: [5]
 
-$$
+```math
 (\mathbf{J}_q)_{ij}=\frac{\partial p_i}{\partial q_j},
 \qquad
 \dot{\mathbf{p}}=\mathbf{J}_q(\mathbf{q})\,\dot{\mathbf{q}}
-$$
+```
 
-Se supone que $\mathbf{f}$ es diferenciable y no depende explícitamente del tiempo. Si depende también de $t$, la regla de la cadena añade $\partial\mathbf{f}/\partial t$.
+Se supone que $`\mathbf{f}`$ es diferenciable y no depende explícitamente del tiempo. Si depende también de $`t`$, la regla de la cadena añade $`\partial\mathbf{f}/\partial t`$.
 
 | Herramienta | Qué relaciona |
 | --- | --- |
 | Derivada temporal de la posición | Posición, velocidad y aceleración de un punto |
-| Jacobiana de posición $\mathbf{J}_q$ | Variaciones de coordenadas de configuración y de posición |
-| Gradiente de deformación $\mathbf{F}$ | Separaciones materiales locales antes y después del movimiento |
-| Determinante $J_V$ | Razón local de volúmenes |
+| Jacobiana de posición $`\mathbf{J}_q`$ | Variaciones de coordenadas de configuración y de posición |
+| Gradiente de deformación $`\mathbf{F}`$ | Separaciones materiales locales antes y después del movimiento |
+| Determinante $`J_V`$ | Razón local de volúmenes |
 
-La jacobiana puede ser rectangular, por lo que no siempre tiene determinante. Sus unidades dependen de las variables elegidas: si una coordenada $q_j$ es angular, una columna puede tener unidades de m/rad. El símbolo y las variables deben definirse en cada problema. [5]
+La jacobiana puede ser rectangular, por lo que no siempre tiene determinante. Sus unidades dependen de las variables elegidas: si una coordenada $`q_j`$ es angular, una columna puede tener unidades de m/rad. El símbolo y las variables deben definirse en cada problema. [5]
 
 ## Ejercicio complementario · Movimiento y cambio de volumen
 
@@ -147,64 +151,72 @@ El siguiente ejemplo amplía el contenido con un campo de movimiento elegido par
 
 Consideremos:
 
-$$
+```math
 \boldsymbol{\chi}(X,Y,Z,t)=
 \begin{bmatrix}
 (1+\alpha t)X\\
 Y\\
 Z
 \end{bmatrix}
-$$
+```
 
 | Dato didáctico | Valor |
 | --- | --- |
-| Tasa del modelo, $\alpha$ | 0.10 s⁻¹ |
-| Instante de estudio, $t$ | 2.0 s |
-| Punto de referencia, $\mathbf{X}$ | (0.200, 0, 0) m |
+| Tasa del modelo, $`\alpha`$ | 0.10 s⁻¹ |
+| Instante de estudio, $`t`$ | 2.0 s |
+| Punto de referencia, $`\mathbf{X}`$ | (0.200, 0, 0) m |
 
-**Supuestos:** movimiento suave, extensión homogénea en la dirección $X$, dimensiones transversales constantes y $1+\alpha t>0$. No se adopta una ley de material ni se calculan esfuerzos.
+**Supuestos:** movimiento suave, extensión homogénea en la dirección $`X`$, dimensiones transversales constantes y $`1+\alpha t>0`$. No se adopta una ley de material ni se calculan esfuerzos.
 
 ### 1. Posición y desplazamiento
 
-El factor de extensión es $1+\alpha t=1.20$. Por tanto:
+El factor de extensión es $`1+\alpha t=1.20`$. Por tanto:
 
-$$
+```math
 \mathbf{x}=
 \begin{bmatrix}
-0.240\\0\\0
+0.240\\
+0\\
+0
 \end{bmatrix}\mathrm{m},
 \qquad
 \mathbf{u}=\mathbf{x}-\mathbf{X}
 =
 \begin{bmatrix}
-0.040\\0\\0
+0.040\\
+0\\
+0
 \end{bmatrix}\mathrm{m}
-$$
+```
 
 ### 2. Velocidad y aceleración material
 
 Derivamos respecto al tiempo manteniendo fijo el punto de referencia:
 
-$$
+```math
 \mathbf{v}(\mathbf{X},t)=
 \frac{\partial\boldsymbol{\chi}}{\partial t}
 =
 \begin{bmatrix}
-\alpha X\\0\\0
+\alpha X\\
+0\\
+0
 \end{bmatrix}
 =
 \begin{bmatrix}
-0.020\\0\\0
+0.020\\
+0\\
+0
 \end{bmatrix}\mathrm{m/s},
 \qquad
 \mathbf{a}=\mathbf{0}
-$$
+```
 
 La velocidad de cada punto permanece constante en el tiempo, aunque cambia de un punto material a otro.
 
 ### 3. Gradiente y razón de volúmenes
 
-$$
+```math
 \mathbf{F}=
 \begin{bmatrix}
 1+\alpha t&0&0\\
@@ -213,17 +225,17 @@ $$
 \end{bmatrix},
 \qquad
 J_V=1+\alpha t=1.20
-$$
+```
 
 **Interpretación.** El modelo aumenta un 20 % la longitud en una dirección y conserva las dimensiones transversales; su volumen también aumenta un 20 %. No es un movimiento rígido ni un modelo incompresible. El resultado no debe trasladarse a un tejido sin comprobar sus propiedades y las condiciones del problema.
 
 ### Para practicar
 
-Si $J_V=1$ es una condición del modelo, ¿podemos estirar en una dirección y mantener sin cambios las otras dos? En una deformación de extensión sin cortante, los factores de extensión deben satisfacer:
+Si $`J_V=1`$ es una condición del modelo, ¿podemos estirar en una dirección y mantener sin cambios las otras dos? En una deformación de extensión sin cortante, los factores de extensión deben satisfacer:
 
-$$
+```math
 \lambda_1\lambda_2\lambda_3=1
-$$
+```
 
 Por ello, una extensión longitudinal exige cambios transversales para conservar volumen.
 
@@ -231,31 +243,31 @@ Por ello, una extensión longitudinal exige cambios transversales para conservar
 
 Para una función exponencial:
 
-$$
+```math
 f(t)=A e^{kt}
 \quad\Longrightarrow\quad
 \frac{df}{dt}=Ak e^{kt}
-$$
+```
 
-$A$ tiene las unidades de $f$ y el producto $kt$ debe ser adimensional. Si $t$ se expresa en segundos, $k$ tiene unidades de s⁻¹. Este detalle evita escribir un exponente con unidades físicas.
+$`A`$ tiene las unidades de $`f`$ y el producto $`kt`$ debe ser adimensional. Si $`t`$ se expresa en segundos, $`k`$ tiene unidades de s⁻¹. Este detalle evita escribir un exponente con unidades físicas.
 
 ## Fluidos: por qué importa la pared del conducto
 
 La pregunta sobre una velocidad mayor en el centro de un tubo se estudia con un modelo de flujo viscoso. Para flujo estacionario, laminar y plenamente desarrollado de un fluido newtoniano e incompresible, en un tubo recto, circular y rígido, con pared fija y condición de no deslizamiento, la velocidad axial es cero en la pared y máxima en el eje. La ley de Poiseuille relaciona caudal y presión: [6]
 
-$$
+```math
 Q=\frac{\pi R^4\Delta p}{8\mu L}
-$$
+```
 
 | Símbolo | Magnitud | Unidad SI |
 | --- | --- | --- |
-| $Q$ | Caudal volumétrico | m³/s |
-| $R$ | Radio interior del tubo | m |
-| $\Delta p$ | Presión de entrada menos presión de salida | Pa |
-| $\mu$ | Viscosidad dinámica | Pa·s |
-| $L$ | Longitud del tramo | m |
+| $`Q`$ | Caudal volumétrico | m³/s |
+| $`R`$ | Radio interior del tubo | m |
+| $`\Delta p`$ | Presión de entrada menos presión de salida | Pa |
+| $`\mu`$ | Viscosidad dinámica | Pa·s |
+| $`L`$ | Longitud del tramo | m |
 
-La dependencia con $R^4$ permite discutir la sensibilidad del caudal a la geometría. Para un sistema biológico hay que revisar los supuestos antes de aplicar el modelo: un conducto deformable y un flujo pulsátil no coinciden con este caso ideal.
+La dependencia con $`R^4`$ permite discutir la sensibilidad del caudal a la geometría. Para un sistema biológico hay que revisar los supuestos antes de aplicar el modelo: un conducto deformable y un flujo pulsátil no coinciden con este caso ideal.
 
 ## Herramientas y recursos de consulta
 

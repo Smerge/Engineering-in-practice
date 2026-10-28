@@ -31,3 +31,13 @@ Comprobar el destino del enlace antes de publicarlo. Enlazar un atlas no autoriz
 - [Criterio de figuras y atribución](criterio-figuras.md).
 
 La clase 01 de Biomecatrónica ofrece un ejemplo de aplicación: momento de fuerza, equilibrio estático, ejercicio resuelto y atlas de consulta.
+
+## Formato matemático en GitHub
+
+Las ecuaciones y matrices independientes se escriben en bloques delimitados por tres acentos graves y la etiqueta math. Dentro del bloque se utiliza LaTeX sin delimitadores de dólar. Las filas de las matrices se separan con dos barras invertidas y se colocan en líneas distintas.
+
+Las expresiones dentro de un párrafo se delimitan con la sintaxis de dólar y acento grave admitida por GitHub, para evitar conflictos con guiones bajos y otros símbolos de Markdown.
+
+Antes de publicar, comprobar tanto la sintaxis matemática como la salida de Markdown de GitHub: ninguna ecuación debe transformarse en un encabezado ni perder los separadores de filas.
+
+- [Documentación de GitHub: expresiones matemáticas](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions).

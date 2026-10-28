@@ -78,32 +78,32 @@ Antes de programar movimientos, necesitamos distinguir la velocidad de corte de 
 
 ### Velocidad de corte y velocidad de giro
 
-Para un diámetro de corte efectivo $D$ expresado en milímetros: [9]
+Para un diámetro de corte efectivo $`D`$ expresado en milímetros: [9]
 
-$$
+```math
 v_c=\frac{\pi D n}{1000},
 \qquad
 n=\frac{1000v_c}{\pi D}
-$$
+```
 
 La primera relación expresa la distancia recorrida por el filo en una vuelta, multiplicada por las vueltas por minuto. El factor 1000 convierte milímetros en metros.
 
 ### Avance de la herramienta respecto a la pieza
 
-$$
+```math
 v_f=f_z\,z\,n
-$$
+```
 
-En esta relación, $z$ es el número efectivo de dientes utilizado para el cálculo del avance, no la cantidad de filos que toca simultáneamente la pieza en cada instante. Para el ejemplo se considera una fresa convencional con cuatro filos equivalentes. [9]
+En esta relación, $`z`$ es el número efectivo de dientes utilizado para el cálculo del avance, no la cantidad de filos que toca simultáneamente la pieza en cada instante. Para el ejemplo se considera una fresa convencional con cuatro filos equivalentes. [9]
 
 | Símbolo | Magnitud | Unidad utilizada |
 | --- | --- | --- |
-| $v_c$ | Velocidad de corte periférica | m/min |
-| $D$ | Diámetro efectivo de corte | mm |
-| $n$ | Velocidad de giro del husillo | rev/min |
-| $f_z$ | Avance por diente | mm/diente |
-| $z$ | Número efectivo de dientes | conteo de dientes |
-| $v_f$ | Velocidad de avance relativa | mm/min |
+| $`v_c`$ | Velocidad de corte periférica | m/min |
+| $`D`$ | Diámetro efectivo de corte | mm |
+| $`n`$ | Velocidad de giro del husillo | rev/min |
+| $`f_z`$ | Avance por diente | mm/diente |
+| $`z`$ | Número efectivo de dientes | conteo de dientes |
+| $`v_f`$ | Velocidad de avance relativa | mm/min |
 
 En herramientas esféricas o con geometrías que cambian el diámetro efectivo, no siempre corresponde utilizar el diámetro nominal de la herramienta. [9]
 
@@ -117,37 +117,37 @@ En herramientas esféricas o con geometrías que cambian el diámetro efectivo, 
 
 | Dato | Valor |
 | --- | --- |
-| Diámetro efectivo, $D$ | 10.0 mm |
-| Velocidad de corte adoptada, $v_c$ | 100 m/min |
-| Dientes efectivos, $z$ | 4 |
-| Avance por diente adoptado, $f_z$ | 0.050 mm/diente |
+| Diámetro efectivo, $`D`$ | 10.0 mm |
+| Velocidad de corte adoptada, $`v_c`$ | 100 m/min |
+| Dientes efectivos, $`z`$ | 4 |
+| Avance por diente adoptado, $`f_z`$ | 0.050 mm/diente |
 
 Calculamos el giro:
 
-$$
+```math
 n=\frac{1000(100)}{\pi(10.0)}
 =3183.10\ \mathrm{rev/min}
-$$
+```
 
 Después calculamos el avance:
 
-$$
+```math
 v_f=(0.050)(4)(3183.10)
 =636.62\ \mathrm{mm/min}
-$$
+```
 
-Si para el ejercicio seleccionamos $n=3200\ \mathrm{rev/min}$, el avance que conserva $f_z$ es:
+Si para el ejercicio seleccionamos $`n=3200\ \mathrm{rev/min}`$, el avance que conserva $`f_z`$ es:
 
-$$
+```math
 v_f=(0.050)(4)(3200)=640\ \mathrm{mm/min}
-$$
+```
 
 La velocidad de corte resultante también cambia:
 
-$$
+```math
 v_c=\frac{\pi(10.0)(3200)}{1000}
 =100.53\ \mathrm{m/min}
-$$
+```
 
 **Interpretación.** Giro y avance no se eligen de forma independiente si buscamos conservar el avance por diente. Si se cambia el giro, hay que revisar el avance.
 
@@ -155,14 +155,14 @@ En una aplicación real, los valores iniciales se seleccionan con las recomendac
 
 ### Pregunta para continuar
 
-Si mantenemos $v_c=100\ \mathrm{m/min}$ y aumentamos el diámetro a 20.0 mm, ¿qué ocurre con el giro?
+Si mantenemos $`v_c=100\ \mathrm{m/min}`$ y aumentamos el diámetro a 20.0 mm, ¿qué ocurre con el giro?
 
-$$
+```math
 n=\frac{1000(100)}{\pi(20.0)}
 =1591.55\ \mathrm{rev/min}
-$$
+```
 
-Al duplicar el diámetro, el giro necesario se reduce a la mitad para conservar la velocidad de corte. Si también mantenemos $f_z$ y $z$, el avance se reduce en la misma proporción.
+Al duplicar el diámetro, el giro necesario se reduce a la mitad para conservar la velocidad de corte. Si también mantenemos $`f_z`$ y $`z`$, el avance se reduce en la misma proporción.
 
 ## Continuidad del trabajo
 

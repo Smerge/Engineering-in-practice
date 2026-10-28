@@ -94,21 +94,21 @@ Para conectar la anatomía con el cálculo ingenieril, añadimos un modelo senci
 
 ### Momento de una fuerza
 
-Respecto a un punto de referencia $O$, el momento de una fuerza se expresa como: [8]
+Respecto a un punto de referencia $`O`$, el momento de una fuerza se expresa como: [8]
 
-$$
+```math
 \boldsymbol{\tau}_O=\mathbf{r}\times\mathbf{F},
 \qquad
 |\tau_O|=rF\sin\theta=F b
-$$
+```
 
 | Símbolo | Significado | Unidad SI |
 | --- | --- | --- |
-| $\boldsymbol{\tau}_O$ | Momento de la fuerza respecto a $O$ | N·m |
-| $\mathbf{r}$ | Vector desde $O$ hasta el punto de aplicación | m |
-| $\mathbf{F}$ | Fuerza aplicada | N |
-| $\theta$ | Ángulo entre $\mathbf{r}$ y $\mathbf{F}$ | rad |
-| $b=r\sin\theta$ | Brazo de momento perpendicular, para $0\leq\theta\leq\pi$ | m |
+| $`\boldsymbol{\tau}_O`$ | Momento de la fuerza respecto a $`O`$ | N·m |
+| $`\mathbf{r}`$ | Vector desde $`O`$ hasta el punto de aplicación | m |
+| $`\mathbf{F}`$ | Fuerza aplicada | N |
+| $`\theta`$ | Ángulo entre $`\mathbf{r}`$ y $`\mathbf{F}`$ | rad |
+| $`b=r\sin\theta`$ | Brazo de momento perpendicular, para $`0\leq\theta\leq\pi`$ | m |
 
 El brazo de momento es la distancia perpendicular a la línea de acción de la fuerza. No debe confundirse con la longitud del hueso o con la distancia hasta una inserción. Si cambia la dirección de la fuerza, también puede cambiar su momento.
 
@@ -116,17 +116,17 @@ El brazo de momento es la distancia perpendicular a la línea de acción de la f
 
 Para un cuerpo rígido en reposo dentro de un modelo plano: [8]
 
-$$
+```math
 \sum F_x=0,\qquad
 \sum F_y=0,\qquad
 \sum \tau_O=0
-$$
+```
 
-Tomaremos $x$ hacia la derecha, $y$ hacia arriba y el sentido antihorario como positivo para los momentos. El modelo es estático: para estudiar aceleraciones se necesitan las ecuaciones de la dinámica.
+Tomaremos $`x`$ hacia la derecha, $`y`$ hacia arriba y el sentido antihorario como positivo para los momentos. El modelo es estático: para estudiar aceleraciones se necesitan las ecuaciones de la dinámica.
 
 ### Ejercicio: sostener una carga con el antebrazo
 
-Representemos el antebrazo y la mano como una barra horizontal articulada en el codo. Una fuerza muscular equivalente $F_m$, vertical hacia arriba, equilibra el peso $W$ de una carga. La articulación aporta la reacción $R_y$. El uso de un modelo de palanca para estudiar fuerzas musculares se desarrolla en la referencia 9.
+Representemos el antebrazo y la mano como una barra horizontal articulada en el codo. Una fuerza muscular equivalente $`F_m`$, vertical hacia arriba, equilibra el peso $`W`$ de una carga. La articulación aporta la reacción $`R_y`$. El uso de un modelo de palanca para estudiar fuerzas musculares se desarrolla en la referencia 9.
 
 ![Diagrama de cuerpo libre de una barra horizontal: reacción vertical en el codo, fuerza muscular hacia arriba y peso de la carga hacia abajo.](figuras/equilibrio-antebrazo.svg)
 
@@ -136,46 +136,46 @@ Representemos el antebrazo y la mano como una barra horizontal articulada en el 
 
 | Parámetro | Valor |
 | --- | --- |
-| Masa de la carga, $m$ | 2.00 kg |
-| Aceleración gravitatoria adoptada, $g$ | 9.81 m/s² |
-| Brazo de momento de la carga, $b_L$ | 0.300 m |
-| Brazo de momento muscular, $b_m$ | 0.030 m |
+| Masa de la carga, $`m`$ | 2.00 kg |
+| Aceleración gravitatoria adoptada, $`g`$ | 9.81 m/s² |
+| Brazo de momento de la carga, $`b_L`$ | 0.300 m |
+| Brazo de momento muscular, $`b_m`$ | 0.030 m |
 
 **Supuestos:** barra rígida y horizontal, fuerzas verticales, articulación ideal sin momento de reacción y un único actuador muscular equivalente. Para aislar el efecto de los brazos de momento, se omiten el peso del antebrazo y de la mano, la cocontracción y las contribuciones pasivas.
 
 Primero obtenemos el peso y su momento:
 
-$$
+```math
 W=mg=(2.00)(9.81)=19.62\ \mathrm{N}
-$$
+```
 
-$$
+```math
 |\tau_L|=W b_L=(19.62)(0.300)=5.886\ \mathrm{N\,m}
-$$
+```
 
-Al tomar momentos respecto al codo, la reacción no contribuye porque se aplica en $O$:
+Al tomar momentos respecto al codo, la reacción no contribuye porque se aplica en $`O`$:
 
-$$
+```math
 F_m b_m-W b_L=0
-$$
+```
 
 Por tanto:
 
-$$
+```math
 F_m=\frac{W b_L}{b_m}
 =\frac{(19.62)(0.300)}{0.030}
 =196.2\ \mathrm{N}
-$$
+```
 
 Completamos el equilibrio vertical:
 
-$$
+```math
 R_y+F_m-W=0
 \quad\Rightarrow\quad
 R_y=19.62-196.2=-176.58\ \mathrm{N}
-$$
+```
 
-El signo negativo indica que la reacción sobre la barra apunta hacia abajo. En esta geometría no hay cargas horizontales, de modo que $R_x=0$.
+El signo negativo indica que la reacción sobre la barra apunta hacia abajo. En esta geometría no hay cargas horizontales, de modo que $`R_x=0`$.
 
 **Interpretación.** La fuerza muscular equivalente resulta diez veces mayor que el peso de la carga porque su brazo de momento es diez veces menor. Es una consecuencia del modelo de palanca, no una relación fija del cuerpo humano. Los resultados son valores nominales de los datos elegidos y no expresan precisión experimental.
 
@@ -185,9 +185,9 @@ El modelo ayuda a entender el efecto de la geometría, pero no estima la fuerza 
 
 Manteniendo los demás datos, ¿qué ocurre si el brazo de momento muscular aumenta a 0.040 m?
 
-$$
+```math
 F_m=\frac{5.886}{0.040}=147.15\ \mathrm{N}
-$$
+```
 
 La fuerza equivalente disminuye. Esto permite discutir por qué la ubicación y la dirección de aplicación de una fuerza son decisiones centrales en el diseño de mecanismos.
 
