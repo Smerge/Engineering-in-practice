@@ -61,8 +61,8 @@ Si conocemos la posición de un punto en función del tiempo, su velocidad y ace
 ```math
 \mathbf{r}(t)=
 \begin{bmatrix}
-x(t)\\
-y(t)\\
+x(t)\\[0pt]
+y(t)\\[0pt]
 z(t)
 \end{bmatrix},
 \qquad
@@ -79,19 +79,19 @@ Con vectores columna, la posición de un punto puede cambiarse entre dos sistema
 
 ```math
 \begin{bmatrix}
-\mathbf{p}_a\\
+\mathbf{p}_a\\[0pt]
 1
 \end{bmatrix}
 =
 \mathbf{T}_{ab}
 \begin{bmatrix}
-\mathbf{p}_b\\
+\mathbf{p}_b\\[0pt]
 1
 \end{bmatrix},
 \qquad
 \mathbf{T}_{ab}=
 \begin{bmatrix}
-\mathbf{R}_{ab}&\mathbf{d}_{ab}\\
+\mathbf{R}_{ab}&\mathbf{d}_{ab}\\[0pt]
 \mathbf{0}^{T}&1
 \end{bmatrix}
 ```
@@ -154,8 +154,8 @@ Consideremos:
 ```math
 \boldsymbol{\chi}(X,Y,Z,t)=
 \begin{bmatrix}
-(1+\alpha t)X\\
-Y\\
+(1+\alpha t)X\\[0pt]
+Y\\[0pt]
 Z
 \end{bmatrix}
 ```
@@ -175,16 +175,16 @@ El factor de extensión es $`1+\alpha t=1.20`$. Por tanto:
 ```math
 \mathbf{x}=
 \begin{bmatrix}
-0.240\\
-0\\
+0.240\\[0pt]
+0\\[0pt]
 0
 \end{bmatrix}\mathrm{m},
 \qquad
 \mathbf{u}=\mathbf{x}-\mathbf{X}
 =
 \begin{bmatrix}
-0.040\\
-0\\
+0.040\\[0pt]
+0\\[0pt]
 0
 \end{bmatrix}\mathrm{m}
 ```
@@ -198,14 +198,14 @@ Derivamos respecto al tiempo manteniendo fijo el punto de referencia:
 \frac{\partial\boldsymbol{\chi}}{\partial t}
 =
 \begin{bmatrix}
-\alpha X\\
-0\\
+\alpha X\\[0pt]
+0\\[0pt]
 0
 \end{bmatrix}
 =
 \begin{bmatrix}
-0.020\\
-0\\
+0.020\\[0pt]
+0\\[0pt]
 0
 \end{bmatrix}\mathrm{m/s},
 \qquad
@@ -219,8 +219,8 @@ La velocidad de cada punto permanece constante en el tiempo, aunque cambia de un
 ```math
 \mathbf{F}=
 \begin{bmatrix}
-1+\alpha t&0&0\\
-0&1&0\\
+1+\alpha t&0&0\\[0pt]
+0&1&0\\[0pt]
 0&0&1
 \end{bmatrix},
 \qquad
