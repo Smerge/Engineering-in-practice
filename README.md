@@ -27,6 +27,10 @@ Herramientas de diseño, certificaciones y conexión CAD/CAM/CIM, con un ejercic
 
 Modelos de trayectoria, transformaciones rígidas y deformación, con un ejercicio resuelto y recursos para el análisis del movimiento.
 
+[**Integración Curricular · Del problema a los objetivos y la evidencia**](asignaturas/integracion-curricular/clases/clase-01-problema-objetivos/README.md)
+
+Formulación de objetivos, matriz de trazabilidad, indicadores de proceso y referencias en LaTeX.
+
 ## Asignaturas
 
 - [Integración CAD CAM CIM](asignaturas/integracion-cad-cam-cim/README.md)
