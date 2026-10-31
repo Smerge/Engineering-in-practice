@@ -11,3 +11,9 @@ Formulación del proyecto, metodología y evaluación de resultados para el trab
 | [Clase 01](clases/clase-01-problema-objetivos/README.md) | 29 de octubre de 2026 | Del problema a los objetivos y la evidencia |
 
 Los proyectos de tesis se organizan por separado en el [índice de tutorías](../../tutorias/README.md). Las entradas de esta asignatura reúnen los criterios y recursos comunes de trabajo.
+
+## Guías de trabajo
+
+| Recurso | Contenido |
+| --- | --- |
+| [Guía 01 · Primera revisión del anteproyecto](guias/guia-01-revision-anteproyecto/README.md) | Coherencia del problema, justificación y objetivos; matriz de evidencia y respuesta a observaciones |
