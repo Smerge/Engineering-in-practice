@@ -39,6 +39,10 @@ Formulación de objetivos, matriz de trazabilidad, indicadores de proceso y refe
 
 Lectura de curvas de compresión, ejercicio de módulo elástico e introducción a la selección de materiales para aplicaciones biomecánicas.
 
+[**Robótica Industrial · Fundamentos de robótica industrial y cinemática**](asignaturas/robotica-industrial/clases/clase-01-fundamentos-cinematica/README.md)
+
+Configuraciones de manipuladores, rotación sobre X, cinemática y planteamiento del proyecto de brazo robótico gemelo.
+
 ## Asignaturas
 
 - [Integración CAD CAM CIM](asignaturas/integracion-cad-cam-cim/README.md)

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="480" viewBox="0 0 1060 480" role="img" aria-labelledby="t d">
+<title id="t">Giro positivo alrededor del eje X</title>
+<desc id="d">Visto desde X positivo, el eje Y apunta a la derecha y Z hacia arriba. Una flecha curva antihoraria lleva el vector unitario Y a Z al girar 90 grados.</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#115e59"/></marker><marker id="b" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#1e40af"/></marker><marker id="c" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#334155"/></marker></defs>
+<rect width="1060" height="480" fill="#f8fafc"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="34" y="50" font-size="30" font-weight="700" fill="#0f172a">Giro positivo alrededor del eje X</text>
+<rect x="34" y="81" width="550" height="365" rx="16" fill="#fff" stroke="#64748b"/>
+<rect x="604" y="81" width="422" height="365" rx="16" fill="#eff6ff" stroke="#64748b"/>
+<text x="60" y="120" font-size="19" fill="#334155">Vista desde X positivo hacia el origen</text>
+<path d="M111 347 H503" stroke="#115e59" stroke-width="3" marker-end="url(#a)"/>
+<path d="M237 398 V149" stroke="#1e40af" stroke-width="3" marker-end="url(#b)"/>
+<path d="M237 347 H373 M237 347 V211" stroke="#334155" stroke-width="7"/>
+<path d="M373 347 A136 136 0 0 0 237 211" stroke="#334155" stroke-width="3" stroke-dasharray="8 6" fill="none" marker-end="url(#c)"/>
+<circle cx="237" cy="347" r="11" fill="#fff" stroke="#9f1239" stroke-width="3"/>
+<circle cx="237" cy="347" r="3.4" fill="#9f1239"/>
+<text x="515" y="354" font-size="23" font-weight="700" fill="#115e59">Y</text>
+<text x="252" y="164" font-size="23" font-weight="700" fill="#1e40af">Z</text>
+<text x="254" y="382" font-size="19" fill="#9f1239">X hacia quien mira</text>
+<text x="338" y="252" font-size="22" font-weight="700" fill="#334155">+90°</text>
+<text x="631" y="130" font-size="23" font-weight="700" fill="#0f172a">Regla de la mano derecha</text>
+<text x="631" y="184" font-size="19" fill="#334155">1. Apunta el pulgar hacia +X.</text>
+<text x="631" y="226" font-size="19" fill="#334155">2. Sigue el cierre de los dedos.</text>
+<text x="631" y="268" font-size="19" fill="#334155">3. En un cuarto de vuelta, +Y</text>
+<text x="655" y="298" font-size="19" fill="#334155">gira hacia +Z.</text>
+<text x="631" y="384" font-size="19" fill="#1e40af">La componente X se conserva.</text>
+</g></svg>

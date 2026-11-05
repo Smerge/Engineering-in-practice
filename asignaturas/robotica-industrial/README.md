@@ -2,4 +2,10 @@
 
 [Ver asignaturas](../README.md) · [Volver al portafolio](../../README.md)
 
-Los resúmenes y recursos de esta asignatura se incorporarán a medida que se revisen las clases.
+Componentes de los robots industriales, cinemática de manipuladores y aplicaciones.
+
+## Clases documentadas
+
+| Entrada | Fecha | Tema |
+| --- | --- | --- |
+| [Clase 01](clases/clase-01-fundamentos-cinematica/README.md) | 29 de octubre de 2026 | Fundamentos de robótica industrial y cinemática |
