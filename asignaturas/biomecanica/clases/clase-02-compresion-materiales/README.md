@@ -1,8 +1,10 @@
-# Clase 02 · Compresión y selección de materiales
+# Clase 03 · Compresión y selección de materiales
 
 **Asignatura:** Biomecánica  
 **Docente:** David Cortez Saravia  
 **Fecha:** 4 de noviembre de 2026
+
+[Clase anterior · Jacobiano, esfuerzo y deformación](../clase-02-jacobiano-esfuerzo/README.md)
 
 En esta clase retomamos el esfuerzo y la deformación para interpretar ensayos de compresión. Comparamos la respuesta de metales, rocas, madera y polímeros, y dejamos planteada una pregunta para la selección de materiales: ¿qué propiedades necesitamos comprobar antes de escoger un candidato?
 

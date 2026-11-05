@@ -5,6 +5,8 @@
 **Fecha de referencia:** 27 de octubre de 2026  
 **Modalidad:** virtual
 
+[Clase siguiente · Jacobiano, esfuerzo y deformación](../clase-02-jacobiano-esfuerzo/README.md)
+
 ## El punto de partida
 
 Estudiar el movimiento humano requiere algo más que observar cómo cambia una posición. Necesitamos elegir un modelo, establecer referencias y reconocer si estamos siguiendo un punto, describiendo un segmento rígido o analizando un material que se deforma.

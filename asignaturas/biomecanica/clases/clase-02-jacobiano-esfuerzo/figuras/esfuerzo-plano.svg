@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 445" width="1060" height="445" role="img" aria-labelledby="t d">
+<title id="t">Proyecciones de la fuerza sobre un plano inclinado</title>
+<desc id="d">El plano se ve de canto y su normal apunta a la derecha. La fuerza forma un ángulo con la normal y se proyecta en una componente horizontal normal y otra vertical tangencial.</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#0f172a"/></marker><marker id="b" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#115e59"/></marker><marker id="c" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#1e40af"/></marker></defs>
+<rect width="1060" height="445" fill="#f8fafc"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="34" y="49" font-size="30" font-weight="700" fill="#0f172a">Fuerza sobre un plano inclinado</text>
+<rect x="34" y="77" width="570" height="334" rx="16" fill="#fff" stroke="#64748b"/>
+<rect x="622" y="77" width="404" height="334" rx="16" fill="#eff6ff" stroke="#64748b"/>
+<path d="M170 107 V351" stroke="#64748b" stroke-width="3"/>
+<text x="58" y="378" font-size="19" fill="#334155">Plano visto de canto</text>
+<path d="M170 313 H545" stroke="#64748b" stroke-width="2" stroke-dasharray="5 6"/>
+<path d="M170 153 H477 V313" stroke="#64748b" stroke-width="2" stroke-dasharray="7 6" fill="none"/>
+<path d="M170 313 H477" stroke="#115e59" stroke-width="4" marker-end="url(#b)"/>
+<path d="M170 313 V153" stroke="#1e40af" stroke-width="4" marker-end="url(#c)"/>
+<path d="M170 313 L477 153" stroke="#0f172a" stroke-width="4" marker-end="url(#a)"/>
+<path d="M257 313 A87 87 0 0 0 247 273" fill="none" stroke="#64748b" stroke-width="2"/>
+<text x="266" y="299" font-size="22" fill="#0f172a">θ</text>
+<text x="315" y="343" font-size="19" fill="#115e59">F cos θ</text>
+<text x="61" y="212" font-size="19" fill="#1e40af">F sen θ</text>
+<text x="494" y="155" font-size="22" font-weight="700" fill="#0f172a">F</text>
+<text x="492" y="343" font-size="18" fill="#334155">Normal</text>
+<text x="650" y="123" font-size="24" font-weight="700" fill="#0f172a">Del vector al esfuerzo</text>
+<text x="650" y="172" font-size="19" fill="#334155">1. Medir θ desde la normal.</text>
+<text x="650" y="214" font-size="19" fill="#334155">2. Proyectar la fuerza.</text>
+<text x="650" y="256" font-size="19" fill="#334155">3. Dividir las componentes</text>
+<text x="674" y="282" font-size="19" fill="#334155">por el área del plano.</text>
+<text x="650" y="348" font-size="18" fill="#1e40af">Área axial = área del plano × cos θ</text>
+</g></svg>
