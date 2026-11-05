@@ -31,6 +31,10 @@ Modelos de trayectoria, transformaciones rígidas y deformación, con un ejercic
 
 Formulación de objetivos, matriz de trazabilidad, indicadores de proceso y referencias en LaTeX.
 
+[**Biomecánica · Compresión y selección de materiales**](asignaturas/biomecanica/clases/clase-02-compresion-materiales/README.md)
+
+Lectura de curvas de compresión, ejercicio de módulo elástico e introducción a la selección de materiales para aplicaciones biomecánicas.
+
 ## Asignaturas
 
 - [Integración CAD CAM CIM](asignaturas/integracion-cad-cam-cim/README.md)
