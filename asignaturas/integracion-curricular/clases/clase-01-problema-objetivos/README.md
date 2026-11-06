@@ -5,6 +5,10 @@
 **Fecha de referencia:** 29 de octubre de 2026  
 **Modalidad:** virtual
 
+## Grabación de la clase
+
+[Ingresar a AVAC con la cuenta institucional](https://avac.ups.edu.ec/). Abre el aula de la asignatura y busca la grabación por la fecha de la sesión, si está habilitada.
+
 ## El punto de partida
 
 Un proyecto de titulación necesita una relación clara entre lo que ocurre, lo que se propone hacer y la forma de comprobar el resultado. Si estos elementos se redactan por separado, es fácil terminar con un objetivo que no responde al problema o con una metodología que no genera la evidencia necesaria.

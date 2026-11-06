@@ -7,6 +7,10 @@
 
 [Clase siguiente · Jacobiano, esfuerzo y deformación](../clase-02-jacobiano-esfuerzo/README.md)
 
+## Grabación de la clase
+
+[Ingresar a AVAC con la cuenta institucional](https://avac.ups.edu.ec/). Abre el aula de la asignatura y busca la grabación por la fecha de la sesión, si está habilitada.
+
 ## El punto de partida
 
 Estudiar el movimiento humano requiere algo más que observar cómo cambia una posición. Necesitamos elegir un modelo, establecer referencias y reconocer si estamos siguiendo un punto, describiendo un segmento rígido o analizando un material que se deforma.

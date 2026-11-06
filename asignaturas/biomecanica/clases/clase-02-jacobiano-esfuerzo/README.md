@@ -8,6 +8,10 @@
 
 La sesión conectó dos formas de estudiar un sólido. La cinemática describe cómo cambian las posiciones de sus puntos. La mecánica de sólidos añade las fuerzas internas y la respuesta del material. Repasamos el cálculo del jacobiano y pasamos de una carga axial a las componentes de esfuerzo sobre un plano inclinado.
 
+## Grabación de la clase
+
+[Ingresar a AVAC con la cuenta institucional](https://avac.ups.edu.ec/). Abre el aula de la asignatura y busca la grabación por la fecha de la sesión, si está habilitada.
+
 ## Del movimiento al cambio local de volumen
 
 La posición de un punto material se escribe $`\mathbf{x}=\boldsymbol{\chi}(\mathbf{X},t)`$, con $`\mathbf{X}`$ en la configuración de referencia. Si seguimos el mismo punto material, la velocidad y la aceleración se obtienen derivando su posición respecto al tiempo. Si fijamos el instante y derivamos respecto a la posición de referencia, obtenemos el **gradiente de deformación**.

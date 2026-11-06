@@ -43,6 +43,14 @@ Lectura de curvas de compresión, ejercicio de módulo elástico e introducción
 
 Configuraciones de manipuladores, rotación sobre X, cinemática y planteamiento del proyecto de brazo robótico gemelo.
 
+[**Robótica Industrial · Matrices y composición de rotaciones**](asignaturas/robotica-industrial/clases/clase-02-composicion-rotaciones/README.md)
+
+Matrices elementales, giros sobre ejes fijos y móviles y un ejercicio de composición.
+
+[**Integración Curricular · Del marco teórico a la metodología**](asignaturas/integracion-curricular/clases/clase-02-marco-teorico-metodologia/README.md)
+
+Alcance, comparación de antecedentes y planificación de pruebas con evidencia verificable.
+
 ## Asignaturas
 
 - [Integración CAD CAM CIM](asignaturas/integracion-cad-cam-cim/README.md)

@@ -9,6 +9,7 @@ Formulación del proyecto, metodología y evaluación de resultados para el trab
 | Entrada | Fecha de referencia | Tema |
 | --- | --- | --- |
 | [Clase 01](clases/clase-01-problema-objetivos/README.md) | 29 de octubre de 2026 | Del problema a los objetivos y la evidencia |
+| [Clase 02](clases/clase-02-marco-teorico-metodologia/README.md) | 5 de noviembre de 2026 | Del marco teórico a la metodología |
 
 Los proyectos de tesis se organizan por separado en el [índice de tutorías](../../tutorias/README.md). Las entradas de esta asignatura reúnen los criterios y recursos comunes de trabajo.
 

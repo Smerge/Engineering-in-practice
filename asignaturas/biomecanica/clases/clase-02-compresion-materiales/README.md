@@ -8,6 +8,10 @@
 
 En esta clase retomamos el esfuerzo y la deformación para interpretar ensayos de compresión. Comparamos la respuesta de metales, rocas, madera y polímeros, y dejamos planteada una pregunta para la selección de materiales: ¿qué propiedades necesitamos comprobar antes de escoger un candidato?
 
+## Grabación de la clase
+
+[Ingresar a AVAC con la cuenta institucional](https://avac.ups.edu.ec/). Abre el aula de la asignatura y busca la grabación por la fecha de la sesión, si está habilitada.
+
 ## De la carga a la curva esfuerzo–deformación
 
 En un ensayo axial, $`F`$ es la magnitud de la fuerza, $`A_0`$ el área transversal inicial y $`L_0`$ la longitud inicial de referencia. Para representar la compresión con magnitudes positivas, usamos el acortamiento $`L_0-L`$:
