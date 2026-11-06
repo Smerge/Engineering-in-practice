@@ -5,10 +5,6 @@
 **Fecha de referencia:** 26 de octubre de 2026  
 **Modalidad:** virtual
 
-## Grabación de la clase
-
-[Ingresar a AVAC con la cuenta institucional](https://avac.ups.edu.ec/). Abre el aula de la asignatura y busca la grabación por la fecha de la sesión, si está habilitada.
-
 ## El punto de partida
 
 Una pieza puede verse bien en pantalla y, aun así, resultar difícil de fabricar. Por eso, en esta asignatura vamos a relacionar las decisiones de diseño con el proceso que permitirá convertirlas en una pieza real.

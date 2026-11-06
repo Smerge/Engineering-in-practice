@@ -8,10 +8,6 @@
 
 En esta sesión pasamos de un giro alrededor de X a una secuencia de giros alrededor de tres ejes. El resultado depende de dos decisiones: en qué orden se ejecutan los giros y respecto a qué marco se define cada eje.
 
-## Grabación de la clase
-
-[Ingresar a AVAC con la cuenta institucional](https://avac.ups.edu.ec/). Abre el aula de la asignatura y busca la grabación por la fecha de la sesión, si está habilitada.
-
 ## Matrices elementales
 
 Usaremos vectores columna, rotaciones activas y ejes de mano derecha. Los ángulos $`\alpha,\beta,\theta `$ corresponden a giros alrededor de X, Y y Z, respectivamente. Cada matriz conserva la componente del vector sobre su eje. [1]

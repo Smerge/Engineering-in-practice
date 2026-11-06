@@ -6,10 +6,6 @@
 
 La primera sesión presentó los componentes y las configuraciones de un robot industrial. A partir de esos elementos, introdujimos los sistemas de referencia, la regla de la mano derecha y la diferencia entre calcular la pose de una herramienta y buscar los movimientos articulares que permiten alcanzarla.
 
-## Grabación de la clase
-
-[Ingresar a AVAC con la cuenta institucional](https://avac.ups.edu.ec/). Abre el aula de la asignatura y busca la grabación por la fecha de la sesión, si está habilitada.
-
 ## De los antecedentes al manipulador industrial
 
 La obra *R.U.R.* de Karel Čapek y las leyes de la robótica de Isaac Asimov sirvieron como puntos de partida para discutir la relación entre personas y máquinas. Las leyes de Asimov pertenecen a la ficción. Para estudiar un robot industrial, la discusión pasa a cuestiones concretas de diseño, control y uso. También se comentó la evolución de la electrónica. La observación de Moore trata sobre el crecimiento de la cantidad de componentes integrados en un circuito, no sobre el tamaño físico del chip. [1]

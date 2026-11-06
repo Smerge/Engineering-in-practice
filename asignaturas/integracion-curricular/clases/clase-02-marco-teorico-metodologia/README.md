@@ -8,10 +8,6 @@
 
 La sesión se dedicó a revisar avances de anteproyectos. El trabajo consistió en precisar qué puede demostrar cada propuesta y conectar ese alcance con el marco teórico, la metodología y las pruebas previstas.
 
-## Grabación de la clase
-
-[Ingresar a AVAC con la cuenta institucional](https://avac.ups.edu.ec/). Abre el aula de la asignatura y busca la grabación por la fecha de la sesión, si está habilitada.
-
 ## Ajustar el alcance antes de escribir la metodología
 
 Si el trabajo solo contempla una demostración en un entorno controlado, describan ese entorno y lo que efectivamente se comprobará allí. Mantengan el mismo alcance en el título, el problema, la justificación y los objetivos. Una prueba funcional del prototipo sustenta una conclusión sobre las condiciones probadas. Afirmaciones sobre desempeño en otros contextos requieren evidencia adicional.

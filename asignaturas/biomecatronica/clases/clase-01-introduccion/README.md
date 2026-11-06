@@ -5,10 +5,6 @@
 **Fecha de referencia:** 26 de octubre de 2026, según el archivo recibido  
 **Modalidad:** teletrabajo
 
-## Grabación de la clase
-
-[Ingresar a AVAC con la cuenta institucional](https://avac.ups.edu.ec/). Abre el aula de la asignatura y busca la grabación por la fecha de la sesión, si está habilitada.
-
 ## El punto de partida
 
 Para diseñar un dispositivo que interactúe con el cuerpo humano, primero necesitamos comprender qué estructura vamos a asistir y cómo participa en el movimiento. Con esa idea comenzó la asignatura: relacionar anatomía y fisiología con los conocimientos de mecánica, sensórica y control de la carrera.
