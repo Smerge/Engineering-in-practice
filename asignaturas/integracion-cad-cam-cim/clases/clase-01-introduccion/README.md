@@ -5,6 +5,8 @@
 **Fecha de referencia:** 26 de octubre de 2026  
 **Modalidad:** virtual
 
+[Clase siguiente · Coordenadas absolutas e incrementales](../clase-02-coordenadas-g90-g91/README.md)
+
 ## El punto de partida
 
 Una pieza puede verse bien en pantalla y, aun así, resultar difícil de fabricar. Por eso, en esta asignatura vamos a relacionar las decisiones de diseño con el proceso que permitirá convertirlas en una pieza real.

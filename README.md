@@ -51,6 +51,10 @@ Matrices elementales, giros sobre ejes fijos y móviles y un ejercicio de compos
 
 Alcance, comparación de antecedentes y planificación de pruebas con evidencia verificable.
 
+[**Integración CAD CAM CIM · Coordenadas absolutas e incrementales en CNC**](asignaturas/integracion-cad-cam-cim/clases/clase-02-coordenadas-g90-g91/README.md)
+
+Conversión entre G90 y G91, dos archivos NC de práctica, desplazamientos en Z e introducción a croquis definidos en SolidWorks.
+
 ## Asignaturas
 
 - [Integración CAD CAM CIM](asignaturas/integracion-cad-cam-cim/README.md)

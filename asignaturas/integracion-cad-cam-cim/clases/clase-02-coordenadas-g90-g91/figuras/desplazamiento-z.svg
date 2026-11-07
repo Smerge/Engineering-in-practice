@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="430" viewBox="0 0 1060 430" role="img" aria-labelledby="t d">
+<title id="t">Movimiento incremental sobre Z</title><desc id="d">La posición inicial está en Z más diez, la superficie en Z cero y el destino en Z menos cinco. Bajar requiere un incremento de menos quince milímetros y regresar al inicio requiere más quince milímetros.</desc>
+<defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#115e59"/></marker><marker id="b" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#1e40af"/></marker></defs>
+<rect width="1060" height="430" fill="#f8fafc"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="34" y="49" font-size="30" font-weight="700" fill="#0f172a">El destino es el mismo; el incremento depende del inicio</text>
+<rect x="34" y="81" width="550" height="316" rx="15" fill="#fff" stroke="#64748b"/>
+<rect x="604" y="81" width="422" height="316" rx="15" fill="#eff6ff" stroke="#64748b"/>
+<path d="M110 337V111" stroke="#64748b" stroke-width="2"/>
+<text x="78" y="117" font-size="21" fill="#334155">Z</text>
+<path d="M110 142H545 M110 262H545 M110 322H545" stroke="#64748b" stroke-width="1.5" stroke-dasharray="6 6"/>
+<text x="133" y="133" font-size="19" fill="#0f172a">+10 mm · Inicio</text>
+<text x="133" y="252" font-size="19" fill="#0f172a">0 mm · Superficie</text>
+<text x="133" y="352" font-size="19" fill="#0f172a">−5 mm · Destino</text>
+<path d="M366 148V315" stroke="#115e59" stroke-width="4" marker-end="url(#a)"/>
+<path d="M465 316V149" stroke="#1e40af" stroke-width="4" marker-end="url(#b)"/>
+<text x="340" y="380" font-size="18" fill="#115e59">−15 mm</text>
+<text x="445" y="380" font-size="18" fill="#1e40af">+15 mm</text>
+<text x="629" y="126" font-size="23" font-weight="700" fill="#0f172a">Posiciones y desplazamientos</text>
+<text x="629" y="179" font-size="20" font-weight="700" fill="#115e59">Bajada en G91</text>
+<text x="629" y="211" font-size="20" fill="#334155">−5 − 10 = −15 mm</text>
+<text x="629" y="273" font-size="20" font-weight="700" fill="#1e40af">Regreso en G91</text>
+<text x="629" y="305" font-size="20" fill="#334155">10 − (−5) = +15 mm</text>
+<text x="629" y="361" font-size="18" fill="#334155">En G90 se indica la coordenada final.</text>
+</g></svg>
