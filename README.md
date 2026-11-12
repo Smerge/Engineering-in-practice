@@ -55,6 +55,22 @@ Alcance, comparación de antecedentes y planificación de pruebas con evidencia 
 
 Conversión entre G90 y G91, dos archivos NC de práctica, desplazamientos en Z e introducción a croquis definidos en SolidWorks.
 
+[**Biomecatrónica · Tejido muscular, acciones y propiocepción**](asignaturas/biomecatronica/clases/clase-02-tejido-muscular/README.md)
+
+Tipos de tejido muscular, acciones anatómicas y un ejemplo de equilibrio de momentos.
+
+[**Integración CAD CAM CIM · Croquis, simetría y matrices lineales en SolidWorks**](asignaturas/integracion-cad-cam-cim/clases/clase-03-croquis-simetria-matrices/README.md)
+
+Relaciones y cotas de croquis, simetría y una matriz de centros para el diseño de una placa.
+
+[**Biomecánica · Del comportamiento de materiales al croquis paramétrico**](asignaturas/biomecanica/clases/clase-04-croquis-parametrico/README.md)
+
+Curvas esfuerzo–deformación, geometría de referencia y un ejercicio de circunferencias en un cuadrado.
+
+[**Biomecánica · Modelado paramétrico y simulación estática**](asignaturas/biomecanica/clases/clase-05-simulacion-estatica/README.md)
+
+Propiedades de masa, sujeciones, carga estática y comparación de configuraciones con revisión de malla.
+
 ## Asignaturas
 
 - [Integración CAD CAM CIM](asignaturas/integracion-cad-cam-cim/README.md)
